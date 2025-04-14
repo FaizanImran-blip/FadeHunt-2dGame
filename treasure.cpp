@@ -16,7 +16,7 @@ class game{
     game(int a,int b):row(a),col(b),v(a,vector<char>(b,'*')),p_r(0),p_c(0){}
     void mod();
     void dis();
-    void treasure();
+    void tre();
     void trap();
     void key();
     void easy(int arr[],vector<string>e) 
@@ -69,7 +69,7 @@ void game::dis()
         }
     }
     v[p_r][p_c] = 'P';  
-    treasure();  
+    tre();  
     trap();
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
@@ -78,7 +78,7 @@ void game::dis()
         cout << endl;
     }
 }
-void game::treasure()
+void game::tre()
 {
     int e=0;
     while(e<t)
