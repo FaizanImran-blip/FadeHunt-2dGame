@@ -4,7 +4,7 @@
 #include<ctime>
 #include<cstdlib>
 using namespace std;
-class game{
+class gam{
     public:
     int row;
     int col;
@@ -13,7 +13,7 @@ class game{
     int p_r;
     int p_c;
     vector<vector<char>>v;
-    game(int a,int b):row(a),col(b),v(a,vector<char>(b,'*')),p_r(0),p_c(0){}
+    gam(int a,int b):row(a),col(b),v(a,vector<char>(b,'*')),p_r(0),p_c(0){}
     void mod();
     void dis();
     void tre();
@@ -35,7 +35,7 @@ class game{
       tr=arr[2];
     }
 };
-void game::mod()
+void gam::mod()
 {
     int arr[3]={4,6,5};
     vector<string>e={"Easy","Medium","Hard"};
@@ -61,7 +61,7 @@ void game::mod()
         cout<<"you are not entering correct::"<<endl;
     }
 }
-void game::dis()
+void gam::dis()
 {
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
@@ -78,7 +78,7 @@ void game::dis()
         cout << endl;
     }
 }
-void game::tre()
+void gam::tre()
 {
     int e=0;
     while(e<t)
@@ -93,7 +93,7 @@ void game::tre()
 }
 
     }
-    void game::trap()
+    void gam::trap()
     {
         int tra_c=0;
     while(tra_c<tr)
@@ -108,7 +108,7 @@ void game::tre()
     }
     
 }
-void game::key()
+void gam::key()
 {
     char se;
     cout<<"Enter the position you want to move ::::w|up:::s|down:::a|left:::d|right:::"<<endl;
@@ -153,8 +153,8 @@ int main()
         cout<<"not in limit enter again::"<<endl;
         cin>>c;
     }
- vector<game>g1;
- g1.push_back(game(r,c));
+ vector<gam>g1;
+ g1.push_back(gam(r,c));
  cout<<"now choose the game Mod::"<<endl;
  g1[0].mod();
  cout<<"Press Enter to start of the game::"<<endl;
