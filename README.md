@@ -1,5 +1,39 @@
-Features:
-Grid Layout: The grid is customizable based on the number of rows and columns entered by the player.
-Difficulty Levels: Three difficulty levels - Easy, Medium, and Hard - with varying numbers of treasures and traps.
-Movement: The player can move using W (up), S (down), A (left), and D (right).
-Treasure and Traps: The grid randomly places treasures and traps. The player must avoid the traps while trying to collect all the treasures.
+# 🎮 Grid Adventure Game (C++)
+
+A lightweight terminal-based adventure game built in C++ where you navigate a player across a grid filled with traps (`X`) and treasures (`T`). Choose your difficulty, explore the map, and survive the hazards!
+
+---
+
+## 📌 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Demo](#-demo)
+- [Getting Started](#-getting-started)
+- [How to Play](#-how-to-play)
+- [Code Structure](#-code-structure)
+- [Future Improvements](#-future-improvements)
+- [License](#-license)
+
+---
+
+## 📖 Overview
+
+This project is a grid-based console game developed using C++. It demonstrates basic game logic, use of `std::vector`, input handling, and random generation. A great starting point for learning game development fundamentals in C++.
+
+---
+
+## ✨ Features
+
+- 🔥 Multiple difficulty levels: Easy, Medium, Hard
+- 🧭 Randomized traps and treasures every session
+- 🎮 Real-time movement using `W`, `A`, `S`, `D`
+- ⚙️ Customizable grid size (5x5 to 10x10)
+- 🧱 Simple, readable console graphics using ASCII characters
+
+---
+
+## 🎥 Demo
+
+*(Add a GIF or screenshot here)*
+
