@@ -3,20 +3,6 @@
 A lightweight terminal-based adventure game built in C++ where you navigate a player across a grid filled with traps (`X`) and treasures (`T`). Choose your difficulty, explore the map, and survive the hazards!
 
 ---
-
-## 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Demo](#-demo)
-- [Getting Started](#-getting-started)
-- [How to Play](#-how-to-play)
-- [Code Structure](#-code-structure)
-- [Future Improvements](#-future-improvements)
-- [License](#-license)
-
----
-
 ## 📖 Overview
 
 This project is a grid-based console game developed using C++. It demonstrates basic game logic, use of `std::vector`, input handling, and random generation. A great starting point for learning game development fundamentals in C++.
