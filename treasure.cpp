@@ -69,8 +69,6 @@ void gam::dis()
         }
     }
     v[p_r][p_c] = 'P';  
-    tre();  
-    trap();
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
             cout << v[i][j] << " ";
@@ -83,8 +81,8 @@ void gam::tre()
     int e=0;
     while(e<t)
     {
-     int g=rand()%row;
-     int x=rand()%col;
+      int g=rand()%row;
+      int x=rand()%col;
      if(v[g][x]=='*'&&v[g][x]!='X'&&v[g][x]!='P')
      {
         v[g][x]='T';
@@ -98,8 +96,8 @@ void gam::tre()
         int tra_c=0;
     while(tra_c<tr)
     {
-     int g=rand()%row;
-     int x=rand()%col;
+      int g=rand()%row;
+      int x=rand()%col;
      if(v[g][x]=='*'&&v[g][x]!='T'&&v[g][x]!='P')
      {
         v[g][x]='X';
@@ -160,6 +158,8 @@ int main()
  cout<<"Press Enter to start of the game::"<<endl;
  getch();
 g1[0].dis();
+g1[0].trap();
+g1[0].tre();
 while (true) {
     g1[0].key();
     g1[0].dis();
