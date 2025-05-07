@@ -1,6 +1,6 @@
-# 🎮 Grid Adventure Game (C++)
+# 🎮 Grid Adventure gae (C++)
 
-A lightweight terminal-based adventure game built in C++ where you navigate a player across a grid filled with traps (`X`) and treasures (`T`). Choose your difficulty, explore the map, and survive the hazards!
+A lightweight terminal-based adventure gae built in C++ where you navigate a player across a grid filled with traps (`X`) and treasures (`T`). Choose your difficulty, explore the map, and survive the hazards!
 
 ---
 
@@ -12,7 +12,6 @@ A lightweight terminal-based adventure game built in C++ where you navigate a pl
 - ⚙️ Customizable grid size (5x5 to 10x10)
 - 🧱 Simple, readable console graphics using ASCII characters
 
----
 
 ## 🎥 Demo
 
