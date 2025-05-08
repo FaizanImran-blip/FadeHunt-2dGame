@@ -4,7 +4,7 @@
 #include<ctime>
 #include<cstdlib>
 using namespace std;
-class ga{
+class game{
     public:
     int row;
     int col;
@@ -13,7 +13,7 @@ class ga{
     int p_r;
     int p_c;
     vector<vector<char>>v;
-    ga(int a,int b):row(a),col(b),v(a,vector<char>(b,'*')),p_r(0),p_c(0){}
+    game(int a,int b):row(a),col(b),v(a,vector<char>(b,'*')),p_r(0),p_c(0){}
     void mod();
     void dis();
     void tre();
@@ -35,7 +35,7 @@ class ga{
       tr=arr[2];
     }
 };
-void ga::mod()
+void game::mod()
 {
     int arr[3]={4,6,5};
     vector<string>e={"Easy","Medium","Hard"};
@@ -61,7 +61,7 @@ void ga::mod()
         cout<<"you are not entering correct::"<<endl;
     }
 }
-void ga::dis()
+void game::dis()
 {
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
@@ -76,7 +76,7 @@ void ga::dis()
         cout << endl;
     }
 }
-void ga::tre()
+void game::tre()
 {
     int e=0;
     while(e<t)
@@ -91,7 +91,7 @@ void ga::tre()
 }
 
     }
-    void ga::trap()
+    void game::trap()
     {
         int tra_c=0;
     while(tra_c<tr)
@@ -106,7 +106,7 @@ void ga::tre()
     }
     
 }
-void ga::key()
+void game::key()
 {
     char se;
     cout<<"Enter the position you want to move ::::w|up:::s|down:::a|left:::d|right:::"<<endl;
@@ -141,21 +141,21 @@ int main()
     cin>>r;
     if(r>10)
     {
-        cout<<"not in limit enter again::"<<endl;
+        cout<<"not in limit enter agamein::"<<endl;
         cin>>r;
     }
     cout<<"now enter the column limit 5-10::"<<endl;
     cin>>c;
     if(c>10)
     {
-        cout<<"not in limit enter again::"<<endl;
+        cout<<"not in limit enter agamein::"<<endl;
         cin>>c;
     }
- vector<ga>g1;
- g1.push_back(ga(r,c));
- cout<<"now choose the gae Mod::"<<endl;
+ vector<game>g1;
+ g1.push_back(game(r,c));
+ cout<<"now choose the gamee Mod::"<<endl;
  g1[0].mod();
- cout<<"Press Enter to start of the gae::"<<endl;
+ cout<<"Press Enter to start of the gamee::"<<endl;
  getch();
 g1[0].dis();
 g1[0].trap();
