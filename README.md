@@ -2,7 +2,7 @@
 
 A lightweight terminal-based adventure gamee built in C++ where you navigamete a player across a grid filled with traps (`X`) and treasures (`T`). Choose your difficulty, explore the map, and survive the hazards!
 
----
+
 
 ## ✨ Features
 
@@ -12,7 +12,7 @@ A lightweight terminal-based adventure gamee built in C++ where you navigamete a
 - ⚙️ Customizable grid size (5x5 to 10x10)
 - 🧱 Simple, readable console graphics using ASCII characters
 
----
+
 ## 🎥 Demo
 
 *(Add a GIF or screenshot here)*
