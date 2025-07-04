@@ -1,19 +1,31 @@
-# 🎮 Grid Adventure gamee (C++)
+# Treasure Hunt 2D Game (Console-based C++)
 
-A lightweight terminal-based adventure gamee built in C++ where you navigamete a player across a grid filled with traps (`X`) and treasures (`T`). Choose your difficulty, explore the map, and survive the hazards!
+This is a console-based 2D treasure hunt game written in C++. The player (`P`) navigates through a grid to collect treasures (`T`) while avoiding traps (`X`). Grid blocks (`*`) disappear one by one every few seconds, increasing the challenge and urgency.
 
+## Features
 
+- 3 difficulty levels: Easy, Medium, Hard
+- Real-time player movement using arrow keys
+- Treasures and traps placed at random positions
+- Grid blocks progressively vanish during gameplay
+- Game ends on collecting 6 treasures (win) or hitting 3 traps (lose)
+- Multithreaded gameplay using `std::thread`
 
-## ✨ Features
+---
 
-- 🔥 Multiple difficulty levels: Easy, Medium, Hard
-- 🧭 Randomized traps and treasures every session
-- 🎮 Real-time movement using `W`, `A`, `S`, `D`
-- ⚙️ Customizable grid size (5x5 to 10x10)
-- 🧱 Simple, readable console graphics using ASCII characters
+## Prerequisites
 
+To compile and run this project, ensure the following tools and environment are available:
 
-## 🎥 Demo
+### OS and Compiler
+- **Operating System**: Windows 10 or later
+- **Compiler**: `g++` (MinGW-w64) version **9.0 or later** with POSIX thread model
 
-*(Add a GIF or screenshot here)*
+### Tools Required
+- Visual Studio Code or any other C++-compatible IDE
+- g++ (MinGW-w64) with `std::thread` support
+- Windows terminal (e.g., Command Prompt or PowerShell)
 
+### Confirm Compiler Version
+```bash
+g++ --version
