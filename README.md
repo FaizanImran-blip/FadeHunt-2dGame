@@ -1,4 +1,4 @@
-# Treasure Hunt 2D Game (Console-based C++)
+# Fade Hunt 2D Game (Console-based C++)
 
 This is a console-based 2D treasure hunt game written in C++. The player (`P`) navigates through a grid to collect treasures (`T`) while avoiding traps (`X`). Grid blocks (`*`) disappear one by one every few seconds, increasing the challenge and urgency.
 
