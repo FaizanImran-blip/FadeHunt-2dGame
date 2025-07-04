@@ -10,7 +10,8 @@ This is a console-based 2D treasure hunt game written in C++. The player (`P`) n
 - Grid blocks progressively vanish during gameplay
 - Game ends on collecting 6 treasures (win) or hitting 3 traps (lose)
 - Multithreaded gameplay using `std::thread`
-
+  # Work on Version
+  g++ (GCC) 13.2.0 or higher
 ---
 
 ## Prerequisites
